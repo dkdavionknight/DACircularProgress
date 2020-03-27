@@ -13,6 +13,7 @@ let package = Package(
         .target(
             name: "DACircularProgress",
             dependencies: [],
-            path: "DACircularProgress")
+            path: "DACircularProgress",
+            publicHeadersPath: ".")
     ]
 )
