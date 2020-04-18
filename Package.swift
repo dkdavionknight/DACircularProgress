@@ -4,16 +4,6 @@ import PackageDescription
 
 let package = Package(
     name: "DACircularProgress",
-    products: [
-        .library(
-            name: "DACircularProgress",
-            targets: ["DACircularProgress"])
-    ],
-    targets: [
-        .target(
-            name: "DACircularProgress",
-            dependencies: [],
-            path: "DACircularProgress",
-            publicHeadersPath: ".")
-    ]
+    products: [.library(name: "DACircularProgress", targets: ["DACircularProgress"])],
+    targets: [.target(name: "DACircularProgress")]
 )
